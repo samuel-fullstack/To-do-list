@@ -1,3 +1,63 @@
+*{
+    font-size: 17px;
+}
+img{
+    width: 100%;
+}
+body{ 
+    background-color: #ffffff;
+    font-family: monospace;
+}
+#head {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#head .icon{
+    width: 50px;
+}
+#head h1{
+    margin-left:10px ;
+    font-size: 2.2rem;
+    font-family: monospace;
+    color: rgb(0, 0, 0);
+}
+#entradas{
+    display: flex;
+    justify-content: center; 
+    height: 40px;
+}
 
+#entradas input{
+    padding: 10px; 
+    border-radius:10px;
+    border: none;
+    background-color: #dfdfdf;
+    width: 50%;
+}
 
+input:focus{
+    outline: 0;
+}
+#add{
+    width: 40px;
+}
+
+#lista{
+    overflow: auto;
+    margin-top: 20px;
+    
+}
+
+.lista div{
+  padding: 10px;
+  margin-top: 10px;
+  background-color:#e0e0e0b5;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+.lista span{
+    margin-left: 15px;
+}
 

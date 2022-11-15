@@ -12,9 +12,12 @@ const botao = document.querySelector('#add');
 
 botao.addEventListener('click', function(){
 
+    
+
     const conteudo = document.querySelector('#tarefa');
 
-    const item = document.querySelector('#lista>div').cloneNode(true); 
+    if(conteudo.value !== ''){
+        const item = document.querySelector('#lista>div').cloneNode(true); 
     item.style.display = 'block'
     item.lastChild.textContent = conteudo.value ;
    
@@ -23,4 +26,7 @@ botao.addEventListener('click', function(){
 
 
     conteudo.value = ''
+    }
+    
+
 }); 

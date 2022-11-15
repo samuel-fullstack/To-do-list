@@ -6,6 +6,7 @@
 * Criar html
     * input 
     * botão de enviar   
+    
 * Código javaScript 
     * evento de click
     * pegar valor digitado
