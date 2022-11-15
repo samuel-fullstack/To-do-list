@@ -1,5 +1,5 @@
 # objetivos
-- criar um **to-do list** em que o usuário possa *adicionar uma nova tarefa* e *marcar como concluída* e *excluir tarefa* 
+- criar um **to-do list** em que o usuário possa <mark>*adicionar uma nova tarefa*</mark> e <mark>*marcar como concluída*</mark> e <mark>*excluir tarefa* </mark>
 
 ## Passos
 
@@ -8,5 +8,10 @@
     * botão de enviar   
 * Código javaScript 
     * evento de click
+    * pegar valor digitado
+        * valor não pode ser vazio
     * criar li na pagina
+
+         
     
+* Estilizar
